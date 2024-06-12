@@ -8,11 +8,30 @@
     <!-- css -->
     <link rel="stylesheet" href="style.css">
     <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- tailwind css + daisyUi -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- customizing script -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        tomato: '#FF4240',
+                    }
+                }
+            }
+        }
+    </script>
 </head>
 
-<body>
+<body class="font-manrope">
     <header>
-        <h1>hockeys loading....</h1>
+        <h1 class="text-4xl">hockeys loading....</h1>
     </header>
     <main>
 
