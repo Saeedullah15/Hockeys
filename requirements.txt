@@ -1,0 +1,18 @@
+main
+1. banner slider section | 
+2. prof hockeys section
+3. program section
+4. new products section
+5. get in touch section
+6. footer section
+7. desktop, mobile responsive
+
+bonus
+1. no lorem ipsum, no bad color
+2. 3 meaningful git commit
+3. black card on slider
+4. clients question
+5. navbar
+
+optional
+1. tablet responsive
