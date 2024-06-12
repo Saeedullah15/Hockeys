@@ -1,6 +1,6 @@
 main
-1. banner slider section | 
-2. prof hockeys section
+1. banner slider section | done
+2. prof hockeys section | 
 3. program section
 4. new products section
 5. get in touch section
@@ -12,7 +12,7 @@ bonus
 2. 3 meaningful git commit
 3. black card on slider
 4. clients question
-5. navbar
+5. navbar | done
 
 optional
 1. tablet responsive
