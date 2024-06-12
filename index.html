@@ -32,12 +32,12 @@
 </head>
 
 <body class="font-manrope">
-    <header class="lg:mx-36 lg:my-6">
+    <header class="mx-3 my-3 lg:mx-24 lg:my-6">
         <nav>
-            <div class="navbar bg-base-100">
+            <div class="navbar bg-base-100 p-0">
                 <div class="navbar-start">
                     <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ps-0">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -54,7 +54,7 @@
                             <li><a>Contact</a></li>
                         </ul>
                     </div>
-                    <a class="text-3xl font-bold">Hockey<span class="text-tomato">'</span>s</a>
+                    <a class="text-xl lg:text-3xl font-black">Hockey<span class="text-tomato">'</span>s</a>
                 </div>
                 <!-- for large device -->
                 <div class="navbar-center hidden lg:flex">
@@ -67,42 +67,152 @@
                     </ul>
                 </div>
                 <div class="navbar-end">
-                    <i class="fa-solid fa-magnifying-glass me-6"></i>
+                    <i class="fa-solid fa-magnifying-glass me-6 hidden lg:block"></i>
                     <a class="btn bg-tomato text-white">Get Ticket</a>
                 </div>
             </div>
         </nav>
     </header>
-    <main class="lg:mx-36">
+    <main class="mx-3 lg:mx-24">
         <!-- slider banner section -->
-        <section class="">
+        <section class="lg:relative">
             <div class="carousel w-full">
-                <div id="slide1" class="carousel-item relative w-full h-[500px]">
+                <div id="slide1" class="carousel-item relative w-full h-60 lg:h-[500px]">
                     <img src="Images/1.png" class="w-full rounded-2xl" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide4" class="btn btn-circle">❮</a>
-                        <a href="#slide2" class="btn btn-circle">❯</a>
+                        <a href="#slide4" class="btn btn-circle bg-black text-white border-none">❮</a>
+                        <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❯</a>
                     </div>
                 </div>
-                <div id="slide2" class="carousel-item relative w-full h-[500px]">
+                <div id="slide2" class="carousel-item relative w-full h-60 lg:h-[500px]">
                     <img src="Images/35784.jpg" class="w-full rounded-2xl" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide1" class="btn btn-circle">❮</a>
-                        <a href="#slide3" class="btn btn-circle">❯</a>
+                        <a href="#slide1" class="btn btn-circle bg-black text-white border-none">❮</a>
+                        <a href="#slide3" class="btn btn-circle bg-black text-white border-none">❯</a>
                     </div>
                 </div>
-                <div id="slide3" class="carousel-item relative w-full h-[500px]">
+                <div id="slide3" class="carousel-item relative w-full h-60 lg:h-[500px]">
                     <img src="Images/2147617998.jpg" class="w-full rounded-2xl" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide2" class="btn btn-circle">❮</a>
-                        <a href="#slide4" class="btn btn-circle">❯</a>
+                        <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❮</a>
+                        <a href="#slide4" class="btn btn-circle bg-black text-white border-none">❯</a>
                     </div>
                 </div>
-                <div id="slide4" class="carousel-item relative w-full h-[500px]">
+                <div id="slide4" class="carousel-item relative w-full h-60 lg:h-[500px]">
                     <img src="Images/2149668596.jpg" class="w-full rounded-2xl" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide3" class="btn btn-circle">❮</a>
-                        <a href="#slide1" class="btn btn-circle">❯</a>
+                        <a href="#slide3" class="btn btn-circle bg-black text-white border-none">❮</a>
+                        <a href="#slide1" class="btn btn-circle bg-black text-white border-none">❯</a>
+                    </div>
+                </div>
+            </div>
+            <!-- small card upon banner -->
+            <div
+                class="lg:absolute lg:bottom-8 lg:left-[460px] xl:left-[720px] 2xl:left-[780px] bg-black text-white p-5 rounded-xl lg:w-2/5">
+                <h5 class="text-base lg:text-lg font-bold mb-3">Meet all the heroes from the field</h5>
+                <small class="text-xs block leading-5 opacity-50">Dit amet consectetur. Condimentum dignissim adipiscing
+                    aliquam turpis
+                    placerat
+                    dolor. Purus urna
+                    in sit nullam proin.
+                </small>
+            </div>
+        </section>
+
+        <!-- prof hockeys section -->
+        <section class="my-20 hidden">
+            <div>
+                <div class="text-center">
+                    <h1 class="text-3xl font-bold text-black mb-3">Professional Hockeys Club</h1>
+                    <small class="block mb-5">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+                        placerat
+                        dolor. Purus
+                        urna in sit nullam proin.
+                    </small>
+                </div>
+                <div class="flex">
+                    <div class="text-center">
+                        <div class="radial-progress text-primary" style="--value:70;" role="progressbar">70%</div>
+                        <p>Prayer Facility</p>
+                        <small>Amet consectetur. Condimentum dignissim adipiscing .</small>
+                    </div>
+                    <div class="text-center">
+                        <div class="radial-progress text-primary" style="--value:70;" role="progressbar">70%</div>
+                        <p>Prayer Facility</p>
+                        <small>Amet consectetur. Condimentum dignissim adipiscing .</small>
+                    </div>
+                    <div class="text-center">
+                        <div class="radial-progress text-primary" style="--value:70;" role="progressbar">70%</div>
+                        <p>Prayer Facility</p>
+                        <small>Amet consectetur. Condimentum dignissim adipiscing .</small>
+                    </div>
+                    <div class="text-center">
+                        <div class="radial-progress text-primary" style="--value:70;" role="progressbar">70%</div>
+                        <p>Prayer Facility</p>
+                        <small>Amet consectetur. Condimentum dignissim adipiscing .</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- program section -->
+        <section class="my-20 hidden">
+            <div>
+                <div>
+                    <div class="text-center">
+                        <h1 class="text-3xl font-bold text-black mb-3">Program Sections</h1>
+                        <small class="block mb-5">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+                            placerat
+                            dolor. Purus
+                            urna in sit nullam proin.
+                        </small>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-5">
+                    <div class="hero w-full" style="background-image: url(Images/2.png);">
+                        <div class="hero-overlay bg-opacity-40"></div>
+                        <div class="hero-content text-start text-neutral-content pt-24">
+                            <div class="">
+                                <h1 class="mb-5 text-2xl font-bold text-white">Junior Program</h1>
+                                <p class="mb-5 text-white text-xs ">Provident cupiditate voluptatem et in.
+                                    Quaerat fugiat
+                                    ut assumenda
+                                    excepturi exercitationem
+                                    quasi. In deleniti eaque aut repudiandae et a id nisi.
+                                </p>
+                                <button class="btn bg-tomato border-none text-white">Register Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero w-full" style="background-image: url(Images/2.png);">
+                        <div class="hero-overlay bg-opacity-40"></div>
+                        <div class="hero-content text-start text-neutral-content pt-24">
+                            <div class="">
+                                <h1 class="mb-5 text-2xl font-bold text-white">Junior Program</h1>
+                                <p class="mb-5 text-white text-xs ">Provident cupiditate voluptatem et in.
+                                    Quaerat fugiat
+                                    ut assumenda
+                                    excepturi exercitationem
+                                    quasi. In deleniti eaque aut repudiandae et a id nisi.
+                                </p>
+                                <button class="btn bg-tomato border-none text-white">Register Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero w-full col-span-2" style="background-image: url(Images/2.png);">
+                        <div class="hero-overlay bg-opacity-40"></div>
+                        <div class="hero-content text-start text-neutral-content pt-24">
+                            <div class="">
+                                <h1 class="mb-5 text-2xl font-bold text-white">Junior Program</h1>
+                                <p class="mb-5 text-white text-xs ">Provident cupiditate voluptatem et in.
+                                    Quaerat fugiat
+                                    ut assumenda
+                                    excepturi exercitationem
+                                    quasi. In deleniti eaque aut repudiandae et a id nisi.
+                                </p>
+                                <button class="btn bg-tomato border-none text-white">Register Now</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
