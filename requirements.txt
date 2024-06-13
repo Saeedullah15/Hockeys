@@ -2,16 +2,16 @@ main
 1. slider banner section | done with responsive
 2. prof hockeys section | done with responsive
 3. program section | done with responsive
-4. new products section | 
-5. get in touch section
+4. new products section | done with responsive
+5. get in touch section | 
 6. footer section
 7. desktop, mobile responsive
 
 bonus
 1. no lorem ipsum, no bad color
-2. 3 meaningful git commit
+2. 3 meaningful git commit | done
 3. black card on slider | done with responsive
-4. clients question
+4. clients question | done with responsive
 5. navbar | done with responsive
 
 optional
